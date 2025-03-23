@@ -40,24 +40,25 @@
                 />
 
             <RadioGroup
-                android:id="@+id/coffy_radiogroup"
+                android:id="@+id/carRadioGroup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:layout_gravity="center_horizontal">
 
                 <RadioButton
-                    android:id="@+id/espresso_radiobutton"
+                    android:id="@+id/sedan_radiobutton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="#111111"
                     android:padding="10dp"
-                    android:text="Sedan" />
+                    android:text="Sedan"
+                    android:checked="true"/>
 
                 <RadioButton
-                    android:id="@+id/cappuccino_radiobutton"
+                    android:id="@+id/suv_radiobutton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -67,7 +68,7 @@
                     android:text="Suv" />
 
                 <RadioButton
-                    android:id="@+id/latte_radiobutton"
+                    android:id="@+id/hatchback_radiobutton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -92,14 +93,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <CheckBox
-                    android:id="@+id/sugar"
+                    android:id="@+id/CheckBoxAirConditioning"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Klimatyzacja"
                     android:layout_margin="10dp"
                     />
                 <CheckBox
-                    android:id="@+id/milk"
+                    android:id="@+id/CheckBoxLeatherSeat"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Skórzane siedznie"
@@ -117,6 +118,23 @@
                 android:textStyle="bold"
                 android:padding="10dp"
                 android:layout_gravity="center_horizontal"
+                />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/carOrder"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#111111"
+                android:padding="10dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/coffyImigeView"
+                android:layout_gravity="center"
+                android:src="@drawable/sedan"
                 />
         </LinearLayout>
 
